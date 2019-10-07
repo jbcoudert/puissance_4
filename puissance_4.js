@@ -13,7 +13,7 @@ click1 = null
 click2 = null
 
 
-for (let i = 0; i < 5; i++ ) {
+for (let i = 0; i < 9; i++ ) {
     var divElement = document.createElement("div")
     grDiv.appendChild(divElement)
     divElement.setAttribute("class", "divclick divclick2")
@@ -59,13 +59,13 @@ for (let i = 0; i < 5; i++ ) {
 }
 
 
-for (let i = 0; i < 5; i++ ) {
+for (let i = 0; i < 9; i++ ) {
 
     var trElement = document.createElement("tr")
     tablo.appendChild(trElement)
     trElement.setAttribute("class", "cell")
     
-    for (let j = 0; j < 5; j++) {
+    for (let j = 0; j < 9; j++) {
         var tdElement = document.createElement("td")
         trElement.appendChild(tdElement)
         tdElement.setAttribute("class", "cell")
