@@ -1,0 +1,41 @@
+.cell {
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#lagrossediv, #legrostablo {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+
+.divclick {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0.4rem;
+}
+
+.divclick2 {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 0.4rem;
+
+}
