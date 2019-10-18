@@ -7,15 +7,15 @@
     text-align: center;
     font-family: sans-serif;
 }
-#lagrossediv, #legrostablo {
+#div-play, #zone-game{
     display: flex;
     justify-content: center;
 
     margin-bottom: 2rem;
 }
-.divclick, .pionRed {
-    width: 70px;
-    height: 70px;
+.pionRed {
+    width: 60px;
+    height: 60px;
     box-sizing: border-box;
     font-size: 2em;
     text-align: center;
@@ -24,9 +24,31 @@
     border-radius: 50%;
     margin: 0.4rem;
 }
-.divclick2, .pionYellow {
-    width: 70px;
-    height: 70px;
+.divclick {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: red;
+    border-radius: 35%;
+    margin: 0.7rem;
+}
+.divclick2 {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: yellow;
+    border-radius: 35%;
+    margin: 0.7rem;
+}
+.pionYellow {
+    width: 60px;
+    height: 60px;
     box-sizing: border-box;
     font-size: 2em;
     text-align: center;
@@ -44,8 +66,4 @@
     font-size: 2em;
     text-align: center;
     font-family: sans-serif;
-}
-
-td:nth-child(2n+2), .divclick:nth-child(2n+2) {
-    background-color: rgb(0, 0, 0);
 }
